@@ -4,11 +4,11 @@
 call plug#begin('~/.vim/plugged')
 
 " List vim plugins here
-Plug 'tpope/vim-salve.git'
-Plug 'tpope/vim-projectionist.git'
-Plug 'tpope/vim-dispatch.git'
-Plug 'tpope/vim-fireplace.git'
-Plug 'tpope/vim-fugitive.git'
+Plug 'https://github.com/tpope/vim-salve.git'
+Plug 'https://github.com/tpope/vim-projectionist.git'
+Plug 'https://github.com/tpope/vim-dispatch.git'
+Plug 'https://tpope.io/vim/fireplace.git'
+Plug 'https://github.com/tpope/vim-fugitive.git'
 
 " Initialize plugin system
 call plug#end()
