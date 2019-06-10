@@ -9,6 +9,9 @@ Plug 'https://github.com/tpope/vim-projectionist.git'
 Plug 'https://github.com/tpope/vim-dispatch.git'
 Plug 'https://tpope.io/vim/fireplace.git'
 Plug 'https://github.com/tpope/vim-fugitive.git'
+Plug 'https://github.com/tpope/vim-classpath.git'
+Plug 'https://github.com/markwoodhall/vim-figwheel.git'
+
 
 " Initialize plugin system
 call plug#end()
