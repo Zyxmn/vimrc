@@ -15,3 +15,6 @@ Plug 'https://github.com/markwoodhall/vim-figwheel.git'
 
 " Initialize plugin system
 call plug#end()
+
+" Remove trailing whitespaces on save
+autocmd BufWritePre * %s/\s\+$//e
