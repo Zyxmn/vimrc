@@ -11,6 +11,7 @@ Plug 'https://tpope.io/vim/fireplace.git'
 Plug 'https://github.com/tpope/vim-fugitive.git'
 Plug 'https://github.com/tpope/vim-classpath.git'
 Plug 'https://github.com/markwoodhall/vim-figwheel.git'
+Plug 'https://github.com/mileszs/ack.vim.git'
 
 
 " Initialize plugin system
