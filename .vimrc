@@ -15,3 +15,6 @@ call plug#end()
 
 " Remove trailing whitespaces on save
 autocmd BufWritePre * %s/\s\+$//e
+
+" Show line number
+set number
