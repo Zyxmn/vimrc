@@ -27,3 +27,7 @@ set hidden
 
 " Map fzf Gfiles to ctrl-p
 nnoremap <C-p> :GFiles<Cr>
+
+" Map ripgrep to ctrl-g
+nnoremap <C-g> :Rg<Cr>
+
