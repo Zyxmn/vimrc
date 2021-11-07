@@ -8,6 +8,9 @@ Plug 'https://tpope.io/vim/fireplace.git'
 Plug 'https://github.com/tpope/vim-fugitive.git'
 Plug 'https://github.com/tpope/vim-classpath.git'
 Plug 'https://github.com/mileszs/ack.vim.git'
+Plug 'sheerun/vim-polyglot' " syntax highlighting for multiple languages
+Plug 'junegunn/fzf.vim' " fuzzy file finder
+
 
 
 " Initialize plugin system
@@ -18,3 +21,7 @@ autocmd BufWritePre * %s/\s\+$//e
 
 " Show line number
 set number
+
+" Do not close buffer when you move to a new one
+" This way you can undo changes if you revisit the buffer
+set hidden
