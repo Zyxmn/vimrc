@@ -9,9 +9,8 @@ Plug 'https://github.com/tpope/vim-fugitive.git'
 Plug 'https://github.com/tpope/vim-classpath.git'
 Plug 'https://github.com/mileszs/ack.vim.git'
 Plug 'sheerun/vim-polyglot' " syntax highlighting for multiple languages
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim' " fuzzy file finder
-
-
 
 " Initialize plugin system
 call plug#end()
@@ -25,3 +24,6 @@ set number
 " Do not close buffer when you move to a new one
 " This way you can undo changes if you revisit the buffer
 set hidden
+
+" Map fzf Gfiles to ctrl-p
+nnoremap <C-p> :GFiles<Cr>
